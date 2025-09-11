@@ -40,6 +40,29 @@ input {
     font-size: 12px;
     margin: 10px;
 }
+.blueButton{
+    background-color: rgb(51, 207, 247);
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+}
+.redButton{
+    background-color: rgb(182, 10, 110);
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+}
+
 .imageButton{
     background-color:rgb(46, 177, 133);
     border: none;
@@ -68,7 +91,6 @@ input {
     flex-basis: content;
     align-content:end;
 }
-
 .wrapper
 {
     display: inline-flex;
@@ -78,6 +100,26 @@ input {
     flex-basis: content;
     
 }
+.colWrapper
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-basis: content;
+    background-color: rgb(77, 223, 174);;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.addAnimalInput{
+    width: 100%;
+    background-color: rgb(72, 192, 152);
+    box-sizing: border-box;
+}
+
 .text-div{
     margin:10px 0px;
     box-sizing: border-box;
